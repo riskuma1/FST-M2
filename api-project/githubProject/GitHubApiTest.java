@@ -24,7 +24,7 @@ public class GitHubApiTest {
 	{
 		reqSpec = new RequestSpecBuilder()
 				.setContentType(ContentType.JSON)
-				.addHeader("Authorization", "token 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")
+				.addHeader("Authorization", "token ghp_P35O8k15ovWq76vQtMhFFmC")
 				.setBaseUri("https://api.github.com")
 				.build();
 		        
